@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(138, 111, 71);
+}
+
+/* START of HEADER */
+
+
+.myHeader {
+  /* position: relavtive; */
+  
+}
+
+.titleName {
+
+ margin: 1%;
+ text-align: center;
+ letter-spacing: 3px;
+ transition: 1s;
+  
+}
+
+.titleName:hover {
+
+  color: rgb(138, 111, 71);
+  transform: skew(90deg);
+
+}
+
+.subtitle {
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+}
+
+
+/* END of HEADER */
+
+/* START of MENU navigaton */
+
+.menuNav {
+  margin: 0 15%;
+  text-align: center;
+  
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4b4b4b;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 33.33%;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(161, 161, 161);
+  }
+
+  /* END of MENU nav */
+
+  /* start of ABOUT */
+
+  .aboutBody {
+    padding: 0 15% 0 15%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.handsomePerson {
+    width: 35%;
+    float: left;
+    margin: 4% 3%;
+    
+  }
+
+.aboutMe {
+    width:55%;
+    float: right;
+    margin: 0 2%;
+  
+  }
+
+
+
+ 
+
+/*
+THIS WAS THE FIRST WAY I TRIED
+.aboutBody {
+    width: 80%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.handsomePerson {
+    width: 25%;
+    margin: 0 1%;
+    position: fixed;
+  
+    left: .5%;
+    top: 20%;
+  }
+
+.aboutMe {
+    margin-left: 35%;
+    margin-right: auto;
+    width: 40%;
+
+  }
+
+  */
+
+
+  /* start of CONTACT */
+  .contactBody {
+    
+    padding: 0 15% 0 15%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+
+/* start of PORTFOLIO*/
+
+
+  .portfolio {
+    margin: 4% 15%;
+    text-align: center;
+  
+  }
+
+  /* all the hover / full saturation code for the images gallery */
+  .alcott {
+
+    text-align: center;
+    opacity: 0.7;
+
+  }
+
+  .alcott:hover {
+
+    opacity: 1;
+
+  }
+  
+  .lowell {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .lowell:hover {
+
+    opacity: 1;
+
+  }
+
+  .fans {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .fans:hover {
+
+    opacity: 1;
+
+  }
+
+  .noyer {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .noyer:hover {
+
+    opacity: 1;
+
+  }
+
+  .plexi {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .plexi:hover {
+
+    opacity: 1;
+
+  }
+
+  .quill {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .quill:hover {
+
+    opacity: 1;
+
+  }
+
+  .whale {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .whale:hover {
+
+    opacity: 1;
+
+  }
+
+  .wall {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .wall:hover {
+
+    opacity: 1;
+
+  }
+
+  .studio {
+
+    text-align: center;
+    opacity: 0.7;
+    
+  }
+
+  .studio:hover {
+
+    opacity: 1;
+
+  }
