@@ -9,11 +9,12 @@ a:hover {
   color: rgb(138, 111, 71);
 }
 
+/* =========================================================================================== */
 /* START of HEADER */
 
 
 .myHeader {
-  /* position: relavtive; */
+  position: fized;
   
 }
 
@@ -42,6 +43,8 @@ a:hover {
 
 /* END of HEADER */
 
+
+/* =========================================================================================== */
 /* START of MENU navigaton */
 
 .menuNav {
@@ -82,6 +85,8 @@ ul {
 
   /* END of MENU nav */
 
+
+  /* =========================================================================================== */
   /* start of ABOUT */
 
   .aboutBody {
@@ -134,7 +139,7 @@ THIS WAS THE FIRST WAY I TRIED
 
   */
 
-
+/* =========================================================================================== */
   /* start of CONTACT */
   .contactBody {
     
@@ -152,7 +157,7 @@ THIS WAS THE FIRST WAY I TRIED
     resize: vertical;
   }
 
-
+/* =========================================================================================== */
 /* start of PORTFOLIO*/
 
 
@@ -277,5 +282,60 @@ THIS WAS THE FIRST WAY I TRIED
   .studio:hover {
 
     opacity: 1;
+
+  }
+
+  .pics2 {
+    display: none;
+  }
+
+  @media screen and (max-width:768px) {
+
+  /* ============================ */
+  /* ABOUT MOBILE */
+    .aboutBody {
+      margin-left: 0 1%;
+      margin-right: 0 1%;
+      
+    }
+  
+  .handsomePerson {
+      width: 100%;
+      float: left;
+      margin: 2% 0%
+      
+    }
+  
+  .aboutMe {
+      width: 100%;
+      float: left;
+      margin: 0 1%;
+    
+    }
+
+  /* ============================ */
+  /* CONTACT MOBILE */
+
+
+  /* ============================ */
+  /* PORTFOLIO MOBILE */
+  .portfolio {
+    margin: 4% 15%;
+    text-align: center;
+  
+  }
+
+  .pics {
+    display: none;
+  }
+  
+  .pics2 {
+    display: inline;
+}
+
+
+
+
+
 
   }
